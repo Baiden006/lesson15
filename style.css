@@ -1,0 +1,148 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    width: 100%;
+    background: url(./img/kosmos-3840x2160-zvezdi-6592.jpg);
+    height: 100%;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    max-width: 1500px;
+
+}
+.header_box{
+    width: 100%;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.inner_2 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.inner_1 h2{
+    font-size: 60px;
+
+}
+.info{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 121px 0;
+    
+}
+.info h1{
+    color:white;
+    font-size: 101px    ;
+}
+.info p{
+    color: white;
+    font-size: 25px;
+}
+.ancher{
+    margin-top: 100px;
+    
+}
+
+.ancher a{
+    text-decoration:none;
+    color:white;
+    border: 2px solid black;
+    padding: 15px 60px;
+    background-color: rgba(49, 49, 165, 0.486);
+}
+.ancher a:hover{
+    -webkit-box-shadow: 1px 3px 8px 3px rgba(0,0,0,0.98); 
+    box-shadow: 1px 3px 8px 3px rgba(0,0,0,0.98);
+    background-color: rgba(137, 43, 226, 0.486);
+}
+.MiddleOfSite{
+    padding-top: 1px;
+    display: block;
+    width: 100%;
+    height: 600px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(27, 38, 99);
+}
+.gigson1{
+    text-align: center;
+    margin: auto;
+    width: 600px;
+    height: auto;
+}
+.gigson1 hr{
+    width: 10%;
+    height: auto;
+}
+.gigson2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+}
+.gs{
+    display: block;
+    width: 80%;
+    height: auto;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+i{
+    font-size: 80px;
+    color: orangered;
+    background-color: white;
+    border-radius: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.gigson3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+}
+.gs1{
+    display: block;
+    width: 3%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.EndOfSite{
+    padding-top: 1px;
+    display: block;
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(75, 4, 69)
+}
+.gs1 i{
+    font-size: 20px;
+    margin-top: 100%;
+}
+.EndOfSite p{
+    text-align: center;
+    margin-top: 90px;
+}
